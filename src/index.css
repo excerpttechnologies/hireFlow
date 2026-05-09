@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { @apply border-gray-200; }
+
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .dark body {
+    @apply bg-gray-950 text-gray-100;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-600 to-accent-500;
+  }
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20;
+  }
+  .dark .glass {
+    @apply bg-gray-900/70 border-gray-700/30;
+  }
+  .glass-dark {
+    @apply bg-gray-900/60 backdrop-blur-xl border border-gray-700/30;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-card border border-gray-100/80;
+  }
+  .dark .card {
+    @apply bg-gray-900 border-gray-800;
+  }
+  .btn-primary {
+    @apply bg-gradient-to-r from-brand-600 to-brand-500 text-white font-semibold px-6 py-2.5 rounded-xl hover:from-brand-700 hover:to-brand-600 transition-all duration-200 shadow-md hover:shadow-glow active:scale-95;
+  }
+  .btn-secondary {
+    @apply bg-white text-brand-600 border border-brand-200 font-semibold px-6 py-2.5 rounded-xl hover:bg-brand-50 transition-all duration-200;
+  }
+  .input {
+    @apply w-full px-4 py-2.5 rounded-xl border border-gray-200 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500/30 focus:border-brand-400 transition-all duration-200 text-sm;
+  }
+  .dark .input {
+    @apply bg-gray-800 border-gray-700 text-gray-100 focus:border-brand-500;
+  }
+  .sidebar-link {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-xl text-gray-600 hover:bg-brand-50 hover:text-brand-700 transition-all duration-150 text-sm font-medium;
+  }
+  .sidebar-link.active {
+    @apply bg-brand-50 text-brand-700 font-semibold;
+  }
+  .dark .sidebar-link { @apply text-gray-400 hover:bg-gray-800 hover:text-gray-100; }
+  .dark .sidebar-link.active { @apply bg-gray-800 text-brand-400; }
+  .stat-card {
+    @apply card p-5 flex flex-col gap-2;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold;
+  }
+  .tag {
+    @apply inline-flex items-center px-2.5 py-1 rounded-lg text-xs font-medium bg-gray-100 text-gray-700;
+  }
+  .dark .tag { @apply bg-gray-800 text-gray-300; }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #e5e7eb transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar { width: 4px; }
+  .scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background-color: #e5e7eb; border-radius: 999px; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 999px; }
+
+/* Skeleton animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  @apply rounded-lg;
+}
+.dark .skeleton {
+  background: linear-gradient(90deg, #1f2937 25%, #374151 50%, #1f2937 75%);
+  background-size: 200% 100%;
+}
+
+/* Transitions */
+.page-enter { animation: slideUp 0.35s ease-out; }
+
+/* Custom range slider */
+input[type="range"] {
+  @apply accent-brand-600;
+}
