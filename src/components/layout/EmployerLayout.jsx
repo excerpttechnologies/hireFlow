@@ -73,21 +73,33 @@ export default function EmployerLayout({ children }) {
       !mobile && (collapsed ? 'w-16' : 'w-60')
     )}>
       {/* Logo */}
-      <div className="flex items-center gap-2 px-4 h-14 border-b border-gray-100 dark:border-gray-800 flex-shrink-0">
-        <div className="w-7 h-7 bg-gradient-to-br from-brand-500 to-accent-500 rounded-lg flex items-center justify-center flex-shrink-0">
-          <Briefcase className="w-3.5 h-3.5 text-white" />
-        </div>
-        {(!collapsed || mobile) && (
-          <span className="font-display font-bold text-lg text-gray-900 dark:text-white">
-            Hire<span className="text-gradient">Flow</span>
-          </span>
+   <div className="flex items-center gap-2 px-4 h-14 border-b border-gray-100 dark:border-gray-800 flex-shrink-0">
+  
+  <img
+    src="/images/joblogo.png"
+    alt="HireFlow Logo"
+    className="w-9 h-9 object-contain flex-shrink-0"
+  />
+
+  {(!collapsed || mobile) && (
+  <span className="font-display font-bold text-lg text-gray-900 dark:text-white">
+    TodayJobs
+  </span>
+)}
+  {!mobile && (
+    <button
+      onClick={() => setCollapsed(!collapsed)}
+      className="ml-auto p-1 rounded hover:bg-gray-100 dark:hover:bg-gray-800"
+    >
+      <ChevronRight
+        className={clsx(
+          'w-3.5 h-3.5 text-gray-400 transition-transform',
+          collapsed && 'rotate-180'
         )}
-        {!mobile && (
-          <button onClick={() => setCollapsed(!collapsed)} className="ml-auto p-1 rounded hover:bg-gray-100 dark:hover:bg-gray-800">
-            <ChevronRight className={clsx('w-3.5 h-3.5 text-gray-400 transition-transform', collapsed && 'rotate-180')} />
-          </button>
-        )}
-      </div>
+      />
+    </button>
+  )}
+</div>
 
       {/* Nav */}
       <nav className="flex-1 overflow-y-auto py-3 px-2 scrollbar-thin space-y-4">

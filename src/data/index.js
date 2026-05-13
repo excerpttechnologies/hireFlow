@@ -1,5 +1,5 @@
 // ============================================================
-// DUMMY DATA - HireFlow Job Portal
+// DUMMY DATA - TodayJobs Job Portal
 // ============================================================
 
 export const COMPANIES = [
@@ -290,10 +290,10 @@ export const BLOG_POSTS = [
 ]
 
 export const TESTIMONIALS = [
-  { id: 1, name: 'Aditya Sharma', role: 'SDE at Google', college: 'IIT Delhi', salary: '45 LPA', image: 'https://i.pravatar.cc/64?img=11', text: 'HireFlow helped me land my dream job at Google! The AI resume scorer gave me actionable feedback and the interview prep was spot on. Got the offer in 3 weeks!' },
-  { id: 2, name: 'Kavya Reddy', role: 'Product Manager at Flipkart', college: 'IIM Ahmedabad', salary: '32 LPA', image: 'https://i.pravatar.cc/64?img=5', text: 'The AI job matching is incredible. It suggested roles that perfectly matched my skills. Within 2 months of using HireFlow, I had 3 offer letters on my table.' },
+  { id: 1, name: 'Aditya Sharma', role: 'SDE at Google', college: 'IIT Delhi', salary: '45 LPA', image: 'https://i.pravatar.cc/64?img=11', text: 'TodayJobs helped me land my dream job at Google! The AI resume scorer gave me actionable feedback and the interview prep was spot on. Got the offer in 3 weeks!' },
+  { id: 2, name: 'Kavya Reddy', role: 'Product Manager at Flipkart', college: 'IIM Ahmedabad', salary: '32 LPA', image: 'https://i.pravatar.cc/64?img=5', text: 'The AI job matching is incredible. It suggested roles that perfectly matched my skills. Within 2 months of using TodayJobs, I had 3 offer letters on my table.' },
   { id: 3, name: 'Rohit Gupta', role: 'ML Engineer at Microsoft', college: 'BITS Pilani', salary: '40 LPA', image: 'https://i.pravatar.cc/64?img=8', text: 'The resume builder and career coach features are game-changers. My profile score went from 60% to 95%, and my interview call rate tripled immediately.' },
-  { id: 4, name: 'Priya Singh', role: 'UI/UX Lead at Razorpay', college: 'NID Ahmedabad', salary: '28 LPA', image: 'https://i.pravatar.cc/64?img=9', text: 'HireFlow\'s design job recommendations were incredibly accurate. I found roles at startups I hadn\'t even considered. Best hiring platform for creative professionals!' },
+  { id: 4, name: 'Priya Singh', role: 'UI/UX Lead at Razorpay', college: 'NID Ahmedabad', salary: '28 LPA', image: 'https://i.pravatar.cc/64?img=9', text: 'TodayJobs\'s design job recommendations were incredibly accurate. I found roles at startups I hadn\'t even considered. Best hiring platform for creative professionals!' },
 ]
 
 export const SUPPORT_TICKETS = [
@@ -368,18 +368,18 @@ export const ANALYTICS_DATA = {
 }
 
 export const FAQS = [
-  { q: 'Is HireFlow free for job seekers?', a: 'Yes! Job seekers can use HireFlow for free with our Free plan. We also offer Pro and Premium plans with advanced features like AI resume builder, career coaching, and unlimited applications.' },
+  { q: 'Is TodayJobs free for job seekers?', a: 'Yes! Job seekers can use TodayJobs for free with our Free plan. We also offer Pro and Premium plans with advanced features like AI resume builder, career coaching, and unlimited applications.' },
   { q: 'How does AI job matching work?', a: 'Our AI analyzes your profile, skills, experience, and preferences to match you with the most relevant jobs. The match percentage shows how well a job fits your profile.' },
   { q: 'How long does it take to get responses from employers?', a: 'Response times vary by company. Most employers respond within 3-7 business days. You can set up real-time notifications to get alerts the moment there\'s an update.' },
   { q: 'Can I apply to multiple jobs at once?', a: 'With the Pro and Premium plans, you can apply to unlimited jobs. The Free plan allows 5 applications per month. You can track all your applications in one place.' },
-  { q: 'How is HireFlow different from other job portals?', a: 'HireFlow uses advanced AI for resume scoring, job matching, interview preparation, and career coaching. We focus on quality over quantity, helping you land the right job faster.' },
-  { q: 'Is my data safe on HireFlow?', a: 'Absolutely. We use enterprise-grade security with end-to-end encryption. Your data is never sold to third parties. You have full control over your privacy settings.' },
+  { q: 'How is TodayJobs different from other job portals?', a: 'TodayJobs uses advanced AI for resume scoring, job matching, interview preparation, and career coaching. We focus on quality over quantity, helping you land the right job faster.' },
+  { q: 'Is my data safe on TodayJobs?', a: 'Absolutely. We use enterprise-grade security with end-to-end encryption. Your data is never sold to third parties. You have full control over your privacy settings.' },
 ]
 
 export const AUDIT_LOGS = [
-  { id: 1, action: 'User Created', user: 'admin@hireflow.com', target: 'student@email.com', time: '2025-02-01 10:23:45', ip: '192.168.1.1', status: 'success' },
-  { id: 2, action: 'Job Approved', user: 'moderator@hireflow.com', target: 'Job #1234', time: '2025-02-01 11:05:12', ip: '192.168.1.2', status: 'success' },
-  { id: 3, action: 'Company Blocked', user: 'admin@hireflow.com', target: 'SpamCorp Inc', time: '2025-02-01 11:30:00', ip: '192.168.1.1', status: 'success' },
+  { id: 1, action: 'User Created', user: 'admin@TodayJobs.com', target: 'student@email.com', time: '2025-02-01 10:23:45', ip: '192.168.1.1', status: 'success' },
+  { id: 2, action: 'Job Approved', user: 'moderator@TodayJobs.com', target: 'Job #1234', time: '2025-02-01 11:05:12', ip: '192.168.1.2', status: 'success' },
+  { id: 3, action: 'Company Blocked', user: 'admin@TodayJobs.com', target: 'SpamCorp Inc', time: '2025-02-01 11:30:00', ip: '192.168.1.1', status: 'success' },
   { id: 4, action: 'Login Failed', user: 'unknown@hacker.com', target: 'Admin Panel', time: '2025-02-01 12:00:00', ip: '45.33.32.156', status: 'failed' },
-  { id: 5, action: 'Plan Upgraded', user: 'billing@hireflow.com', target: 'Google Inc', time: '2025-02-01 13:15:30', ip: '192.168.1.3', status: 'success' },
+  { id: 5, action: 'Plan Upgraded', user: 'billing@TodayJobs.com', target: 'Google Inc', time: '2025-02-01 13:15:30', ip: '192.168.1.3', status: 'success' },
 ]

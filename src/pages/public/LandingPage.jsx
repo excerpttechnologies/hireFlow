@@ -247,7 +247,7 @@ export default function LandingPage() {
               { icon: Brain, title: 'AI Job Matching', desc: 'Our AI analyzes 50+ data points to match you with jobs where you have the highest probability of success.', color: 'from-brand-500 to-brand-600' },
               { icon: Star, title: 'Resume Scorer', desc: 'Get instant ATS score, keyword analysis, and actionable suggestions to make your resume stand out.', color: 'from-purple-500 to-purple-600' },
               { icon: Zap, title: 'Auto Shortlisting', desc: 'Employers use AI to shortlist the top 10% of candidates within seconds of application.', color: 'from-accent-500 to-orange-600' },
-              { icon: Shield, title: 'Verified Companies', desc: 'Every company on HireFlow is manually verified, so you never apply to fake or scam jobs.', color: 'from-emerald-500 to-emerald-600' },
+              { icon: Shield, title: 'Verified Companies', desc: 'Every company on TodayJobs is manually verified, so you never apply to fake or scam jobs.', color: 'from-emerald-500 to-emerald-600' },
               { icon: Clock, title: 'Real-time Updates', desc: 'Get instant notifications when your application status changes, interviews are scheduled, or offers arrive.', color: 'from-blue-500 to-blue-600' },
               { icon: TrendingUp, title: 'Career Insights', desc: 'Understand your market value, salary trends, and career growth opportunities in your field.', color: 'from-pink-500 to-rose-600' },
             ].map((feature, i) => (
@@ -271,7 +271,7 @@ export default function LandingPage() {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
             className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-display font-black text-gray-900 dark:text-white">
-              How HireFlow Works
+              How TodayJobs Works
             </h2>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -414,7 +414,7 @@ export default function LandingPage() {
             <h2 className="text-3xl sm:text-5xl font-display font-black text-white mb-4">
               Ready to Land Your Dream Job?
             </h2>
-            <p className="text-brand-200 text-lg mb-8">Join 5 lakh+ professionals already using HireFlow</p>
+            <p className="text-brand-200 text-lg mb-8">Join 5 lakh+ professionals already using TodayJobs</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/register/student" className="px-8 py-3.5 bg-white text-brand-700 font-bold rounded-2xl hover:bg-brand-50 transition-colors">
                 Get Started Free

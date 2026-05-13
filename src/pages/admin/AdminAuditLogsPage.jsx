@@ -9,12 +9,12 @@ import toast from 'react-hot-toast'
 
 const EXTENDED_LOGS = [
   ...AUDIT_LOGS,
-  { id: 6, action: 'Student Suspended', user: 'moderator@hireflow.com', target: 'spam_user@gmail.com', time: '2025-02-01 14:00:00', ip: '192.168.1.2', status: 'success' },
-  { id: 7, action: 'Job Removed', user: 'moderator@hireflow.com', target: 'Job #9876 - Fake Posting', time: '2025-02-01 14:30:00', ip: '192.168.1.2', status: 'success' },
-  { id: 8, action: 'Password Reset', user: 'system@hireflow.com', target: 'user@email.com', time: '2025-02-01 15:00:00', ip: '103.45.67.89', status: 'success' },
+  { id: 6, action: 'Student Suspended', user: 'moderator@TodayJobs.com', target: 'spam_user@gmail.com', time: '2025-02-01 14:00:00', ip: '192.168.1.2', status: 'success' },
+  { id: 7, action: 'Job Removed', user: 'moderator@TodayJobs.com', target: 'Job #9876 - Fake Posting', time: '2025-02-01 14:30:00', ip: '192.168.1.2', status: 'success' },
+  { id: 8, action: 'Password Reset', user: 'system@TodayJobs.com', target: 'user@email.com', time: '2025-02-01 15:00:00', ip: '103.45.67.89', status: 'success' },
   { id: 9, action: 'SQL Injection Attempt', user: 'unknown', target: 'Login API', time: '2025-02-01 15:30:00', ip: '45.33.32.157', status: 'failed' },
-  { id: 10, action: 'Coupon Created', user: 'admin@hireflow.com', target: 'LAUNCH50', time: '2025-02-01 16:00:00', ip: '192.168.1.1', status: 'success' },
-  { id: 11, action: 'Email Template Updated', user: 'admin@hireflow.com', target: 'Welcome Email', time: '2025-02-01 16:30:00', ip: '192.168.1.1', status: 'success' },
+  { id: 10, action: 'Coupon Created', user: 'admin@TodayJobs.com', target: 'LAUNCH50', time: '2025-02-01 16:00:00', ip: '192.168.1.1', status: 'success' },
+  { id: 11, action: 'Email Template Updated', user: 'admin@TodayJobs.com', target: 'Welcome Email', time: '2025-02-01 16:30:00', ip: '192.168.1.1', status: 'success' },
   { id: 12, action: 'Brute Force Blocked', user: 'unknown', target: 'Admin Panel', time: '2025-02-01 17:00:00', ip: '88.12.34.56', status: 'failed' },
 ]
 

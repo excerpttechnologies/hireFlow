@@ -30,14 +30,17 @@ export default function StudentNavbar() {
       <div className="max-w-[1400px] mx-auto px-4">
         <div className="flex items-center justify-between h-14 gap-4">
           {/* Logo */}
-          <Link to="/student/dashboard" className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-7 h-7 bg-gradient-to-br from-brand-500 to-accent-500 rounded-lg flex items-center justify-center">
-              <Briefcase className="w-3.5 h-3.5 text-white" />
-            </div>
-            <span className="font-display font-bold text-lg text-gray-900 dark:text-white hidden sm:block">
-              Hire<span className="text-gradient">Flow</span>
-            </span>
-          </Link>
+       <Link to="/student/dashboard" className="flex items-center gap-2 flex-shrink-0">
+  <img
+    src="/images/joblogo.png"
+    alt="TodayJobs Logo"
+    className="w-9 h-9 object-contain"
+  />
+
+  <span className="font-display font-bold text-lg text-gray-900 dark:text-white hidden sm:block">
+    TodayJobs
+  </span>
+</Link>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-0.5">

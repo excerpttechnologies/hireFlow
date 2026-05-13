@@ -132,7 +132,7 @@ export default function AdminLayout({ children }) {
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-xs font-semibold text-white truncate">Super Admin</p>
-              <p className="text-xs text-gray-500 truncate">admin@hireflow.in</p>
+              <p className="text-xs text-gray-500 truncate">admin@TodayJobs.in</p>
             </div>
           </div>
         </div>
@@ -160,7 +160,7 @@ export default function AdminLayout({ children }) {
           <button onClick={() => setMobileOpen(true)} className="lg:hidden p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">
             <Menu className="w-5 h-5 text-gray-600 dark:text-gray-400" />
           </button>
-          <span className="text-sm font-semibold text-gray-500 dark:text-gray-400 hidden sm:block">HireFlow Admin</span>
+          <span className="text-sm font-semibold text-gray-500 dark:text-gray-400 hidden sm:block">TodayJobs Admin</span>
           <div className="flex-1" />
           <button onClick={toggleTheme} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">
             {dark ? <Sun className="w-4 h-4 text-gray-400" /> : <Moon className="w-4 h-4 text-gray-600" />}

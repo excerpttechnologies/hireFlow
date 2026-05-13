@@ -21,7 +21,7 @@ export function AboutPage() {
             We're Building the Future<br />of <span className="text-gradient">Hiring in India</span>
           </h1>
           <p className="text-lg text-gray-500 max-w-2xl mb-12 leading-relaxed">
-            HireFlow was founded in 2022 by a team of IIT and IIM alumni who experienced firsthand how broken the hiring process was — both as candidates and as hiring managers.
+            TodayJobs was founded in 2022 by a team of IIT and IIM alumni who experienced firsthand how broken the hiring process was — both as candidates and as hiring managers.
           </p>
 
           {/* Stats */}
@@ -92,7 +92,7 @@ export function ContactPage() {
           {/* Contact Info */}
           <div className="space-y-6">
             {[
-              { icon: Mail, title: 'Email Us', value: 'hello@hireflow.in', sub: 'We reply within 24 hours' },
+              { icon: Mail, title: 'Email Us', value: 'hello@TodayJobs.in', sub: 'We reply within 24 hours' },
               { icon: Phone, title: 'Call Us', value: '+91 1800-123-4567', sub: 'Mon–Sat 9AM to 6PM IST' },
               { icon: MapPin, title: 'Office', value: '12th Floor, Brigade Towers, Bengaluru', sub: 'Visit us for enterprise enquiries' },
             ].map(item => (
@@ -343,10 +343,10 @@ export function TermsPage() {
         <p className="text-sm text-gray-400 mb-8">Last updated: February 1, 2025</p>
         <div className="space-y-8 text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
           {[
-            { title: '1. Acceptance of Terms', content: 'By accessing and using HireFlow, you accept and agree to be bound by the terms and provision of this agreement. These terms apply to all visitors, users, and others who access the service.' },
+            { title: '1. Acceptance of Terms', content: 'By accessing and using TodayJobs, you accept and agree to be bound by the terms and provision of this agreement. These terms apply to all visitors, users, and others who access the service.' },
             { title: '2. User Accounts', content: 'You are responsible for maintaining the confidentiality of your account and password. You agree to accept responsibility for all activities that occur under your account. You must be at least 18 years old to use this service.' },
             { title: '3. Acceptable Use', content: 'You agree not to use the service to post false, misleading, or fraudulent job listings. You agree not to harass, discriminate, or otherwise harm other users. You agree not to attempt to access systems or data you are not authorized to access.' },
-            { title: '4. Intellectual Property', content: 'HireFlow and its original content, features and functionality are and will remain the exclusive property of HireFlow Technologies Pvt. Ltd. Our trademarks and trade dress may not be used without prior written permission.' },
+            { title: '4. Intellectual Property', content: 'TodayJobs and its original content, features and functionality are and will remain the exclusive property of TodayJobs Technologies Pvt. Ltd. Our trademarks and trade dress may not be used without prior written permission.' },
             { title: '5. Termination', content: 'We may terminate or suspend your account immediately, without prior notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties, or for any other reason at our sole discretion.' },
           ].map(section => (
             <div key={section.title}>
@@ -389,7 +389,7 @@ export function CareersPage() {
     <div className="min-h-screen bg-white dark:bg-gray-950">
       <PublicNavbar />
       <div className="bg-gradient-to-br from-brand-600 to-purple-700 py-20 text-center mb-12">
-        <h1 className="text-4xl font-display font-black text-white mb-3">Join the HireFlow Team</h1>
+        <h1 className="text-4xl font-display font-black text-white mb-3">Join the TodayJobs Team</h1>
         <p className="text-brand-200 text-lg">Help us revolutionize hiring for India</p>
       </div>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pb-16">

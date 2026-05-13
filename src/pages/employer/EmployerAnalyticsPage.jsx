@@ -10,7 +10,7 @@ import toast from 'react-hot-toast'
 const PIE_COLORS = ['#6366f1', '#f97316', '#10b981', '#ef4444', '#8b5cf6']
 
 const sourceData = [
-  { name: 'HireFlow Search', value: 45 },
+  { name: 'TodayJobs Search', value: 45 },
   { name: 'Job Alerts', value: 28 },
   { name: 'Company Page', value: 15 },
   { name: 'Referral', value: 8 },

@@ -1,6 +1,6 @@
 // vite.config.js
-import { defineConfig } from "file:///D:/Arvind/Arvind/jobportal-hireflow-final/jobportal/node_modules/vite/dist/node/index.js";
-import react from "file:///D:/Arvind/Arvind/jobportal-hireflow-final/jobportal/node_modules/@vitejs/plugin-react/dist/index.js";
+import { defineConfig } from "file:///D:/Arvind/Arvind/jobportal-TodayJobs-final/jobportal/node_modules/vite/dist/node/index.js";
+import react from "file:///D:/Arvind/Arvind/jobportal-TodayJobs-final/jobportal/node_modules/@vitejs/plugin-react/dist/index.js";
 var vite_config_default = defineConfig({
   plugins: [react()]
 });

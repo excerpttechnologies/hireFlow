@@ -18,7 +18,7 @@ const SUGGESTED_PROMPTS = [
 const INITIAL_MESSAGES = [
   {
     id: 1, role: 'assistant',
-    content: `👋 Hi Arjun! I'm your AI Career Coach powered by HireFlow AI.\n\nI can help you with:\n• **Resume** feedback and optimization\n• **Interview** preparation and mock questions\n• **Career path** guidance and skill recommendations\n• **Salary** negotiation strategies\n• **Job search** tips and outreach templates\n\nWhat would you like to work on today?`,
+    content: `👋 Hi Arjun! I'm your AI Career Coach powered by TodayJobs AI.\n\nI can help you with:\n• **Resume** feedback and optimization\n• **Interview** preparation and mock questions\n• **Career path** guidance and skill recommendations\n• **Salary** negotiation strategies\n• **Job search** tips and outreach templates\n\nWhat would you like to work on today?`,
     timestamp: new Date().toLocaleTimeString(),
   }
 ]
@@ -169,7 +169,7 @@ export default function AICareerCoach() {
                 <Send className="w-4 h-4" />
               </button>
             </div>
-            <p className="text-center text-xs text-gray-400 mt-2">AI Career Coach · Powered by HireFlow AI</p>
+            <p className="text-center text-xs text-gray-400 mt-2">AI Career Coach · Powered by TodayJobs AI</p>
           </div>
         </div>
       </div>

@@ -43,7 +43,7 @@ export default function AIToolsPage() {
       <PageHeader
         title="AI Hiring Suite"
         subtitle="Supercharge your hiring with AI-powered tools"
-        actions={<Badge variant="brand">🤖 Powered by HireFlow AI</Badge>}
+        actions={<Badge variant="brand">🤖 Powered by TodayJobs AI</Badge>}
       />
 
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">

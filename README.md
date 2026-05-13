@@ -1,4 +1,4 @@
-# 🚀 HireFlow — AI-Powered Job Portal
+# 🚀 TodayJobs — AI-Powered Job Portal
 
 A **production-quality**, full-featured job portal built with React.js + Vite + Tailwind CSS.
 
@@ -154,4 +154,4 @@ To add a backend:
 
 ---
 
-Built with ❤️ — HireFlow 2025
+Built with ❤️ — TodayJobs 2025
