@@ -40,9 +40,7 @@ export default function PublicNavbar() {
               className="w-16 h-16 object-contain"
             />
 
-            <span className="font-display font-bold text-xl text-gray-900 dark:text-white">
-              Today<span className="text-gradient">Jobs</span>
-            </span>
+            
           </Link>
 
           {/* Desktop Nav */}

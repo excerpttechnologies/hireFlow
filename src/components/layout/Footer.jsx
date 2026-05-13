@@ -69,7 +69,7 @@ export default function Footer() {
                 <Mail className="w-3.5 h-3.5" /> hello@TodayJobs.in
               </div>
               <div className="flex items-center gap-2 text-xs text-gray-500">
-                <Phone className="w-3.5 h-3.5" /> +91 1800-123-4567
+                <Phone className="w-3.5 h-3.5" /> +91 80508 06006
               </div>
               <div className="flex items-center gap-2 text-xs text-gray-500">
                 <MapPin className="w-3.5 h-3.5" /> Bengaluru, India

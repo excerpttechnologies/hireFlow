@@ -104,10 +104,10 @@ export default function LandingPage() {
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}
             className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mt-16">
             {[
-              { label: 'Active Jobs', value: 22000, suffix: '+' },
-              { label: 'Companies', value: 1500, suffix: '+' },
-              { label: 'Job Seekers', value: 500000, suffix: '+' },
-              { label: 'Placements', value: 85000, suffix: '+' },
+              { label: 'Active Jobs', value: 600, suffix: '+' },
+              { label: 'Companies', value: 800, suffix: '+' },
+              { label: 'Job Seekers', value: 20000, suffix: '+' },
+              { label: 'Placements', value: 8000, suffix: '+' },
             ].map(stat => (
               <div key={stat.label} className="text-center">
                 <p className="text-3xl font-display font-black text-white">
@@ -128,7 +128,7 @@ export default function LandingPage() {
       </section>
 
       {/* Trusted Companies */}
-      <section className="py-12 bg-white dark:bg-gray-950 border-b border-gray-100 dark:border-gray-800">
+      {/* <section className="py-12 bg-white dark:bg-gray-950 border-b border-gray-100 dark:border-gray-800">
         <div className="max-w-7xl mx-auto px-4">
           <p className="text-center text-sm text-gray-400 font-medium mb-8">TRUSTED BY TEAMS AT</p>
           <div className="flex flex-wrap justify-center gap-6 items-center opacity-60 hover:opacity-80 transition-opacity">
@@ -142,7 +142,7 @@ export default function LandingPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Job Categories */}
       <section className="py-20 bg-white dark:bg-gray-950">
